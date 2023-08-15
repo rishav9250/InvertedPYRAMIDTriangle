@@ -1,2 +1,19 @@
-# InvertedPYRAMIDTriangle
-here is a code of InvertedPYRAMIDTriangle in java.
+public class InvertedPYRAMIDTriangle {
+    public static void invertedPyramidTriangle(int n){
+        for(int i = 1;i<=n;i++){
+            for(int j=1;j<=n-i;j++){
+               System.out.print(" ");
+            }
+               for(int j =1;j<=i;j++){
+                System.out.print("* ");
+               }
+                System.out.println();
+            } 
+        }
+    
+    public static void main(String[] args) {
+        invertedPyramidTriangle(5);
+    }
+    }
+
+
